@@ -1,0 +1,235 @@
+/* *{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.zona{
+    padding:10px;
+    background-color:black;
+    height:70px;
+}
+.zona li{
+    height: 100%;
+}
+.zona a{
+    color: white;
+    text-decoration: none;
+}
+.item{
+    margin: 20px;
+    display: inline;
+    font-family:'Times New Roman', Times, serif;
+    width: 230px;
+    height: 25px;
+    text-align: center;
+    float:right;
+}
+ 
+.info{
+    align-items: center;
+    height: 1000px;
+    background-image: url(Avanzado.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h2{
+    padding:100px;
+    text-align: center;
+    font-size:60px;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+    -webkit-text-fill-color: #112647;
+    border-color: white;
+}
+.parrafo{
+    margin-left: 35%;
+    width:400px;
+    text-align: center;
+    text-decoration: none;
+}
+ 
+.contenedor{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.tabla{
+    text-align: center;
+    margin: 20px;
+    width: 500px;
+    align-items: center;
+    overflow: hidden;
+}
+.tabla p{
+    font-family: 'Oswald', sans-serif;
+}
+h3{
+    text-align: center;
+}
+.tabla a{
+    color: black;
+    text-decoration: none;
+}
+.tabla:hover{
+    transition: 0.5s all;
+    transform: scale(1.05);
+    cursor: pointer;
+ 
+}
+.tabla img{
+    width: 100%;
+}
+h4{
+    font-size: 50px;
+}
+.pulsador{
+    font-family: 'Oswald', sans-serif;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 10px;
+    margin-top: 20px;
+}
+.container{
+    text-align: center;
+    max-width: 1000px;
+    position:relative;
+    margin:auto;
+}
+.botones{
+    position: absolute;
+    width:50px;
+    height:50px;
+    color: white;
+    top:50%;
+    transform: translateY(-50%);
+    font-size:50px;
+    font-weight: bold;
+    font-family:monospace;
+    cursor: pointer;
+}
+.boton-derecha{
+    right:0px;
+}
+.boton-izquierda{
+    left:20px;
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+.zona{
+    background-color: black;
+    text-align: center;
+    height: 60px;
+}
+h1{
+    color: white;
+    float: left;
+    margin-left: 15px;
+}
+.item{
+    list-style: none;
+    float: right;
+    text-align: right;
+    margin-top: 20px;
+    margin-right:35px;
+    font-size: 17px;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.info{ 
+    text-align: center;
+    background-image: url(Imagenes/Avanzado.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 750px;
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+.contenedor{
+    align-items: center;
+    display: flex;
+}
+.tabla{
+    text-align: center;
+    margin: 20px;
+    width: 500px;
+}
+.tabla a{
+    color: black;
+    text-decoration: none;
+}
+.tabla:hover{
+    transition: 0.5s all;
+    transform: scale(1.05);
+    cursor: pointer;
+ 
+}
+.tabla img{
+    width: 100%;
+}
+h4{
+    font-size: 50px;
+}
+.pulsador{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 10px;
+    margin-top: 20px;
+}
+.slider{
+    text-align: center;
+}
+.pie{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+}
+.pie ul{
+    padding: 25px;
+    border-left: 1px solid black;
+}
+h5{
+    font-size: 30px;
+}
+.legal{
+    font-size: 25px;
+}
+.archivos{
+    color: black;
+    margin: 10px;
+}
+#buscar{
+    font-size: 18px;
+    height: 25px;
+    border-radius: 4px 4px 4px ;
+}
+#unirse{
+    font-size: 18px;
+    width: 100px;
+    height: 30px;
+    border-radius:32px;
+    border:2px solid #ccd1d1;
+    transition: 0.5s;
+}
+.redes{
+    float: left;
+}
+.social{    
+    margin: 10px;
+}
+.social img{
+    width: 30px;
+}
